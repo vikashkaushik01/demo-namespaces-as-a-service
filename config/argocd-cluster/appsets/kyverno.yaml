@@ -21,10 +21,9 @@ spec:
       sources:
       - chart: kyverno
         repoURL: https://nirmata.github.io/kyverno-charts/
-        targetRevision: release-chart-1.11
+        targetRevision: 3.1.17
         helm:
           releaseName: kyverno
-          version: 3.1.17
           valuesObject:
              kyverno.fullname: kyverno
       destination:
