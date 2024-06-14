@@ -17,8 +17,8 @@ spec:
     spec:
       project: "default"
       sources:
-      - repoURL: https://github.com/nirmata/demo-namespaces-as-a-service
-        targetRevision: HEAD
+      - repoURL: https://github.com/vikashkaushik01/demo-namespaces-as-a-service.git
+        targetRevision: vikash
         path: config/shared-cluster/roles/
       destination:
         server: '{{server}}'

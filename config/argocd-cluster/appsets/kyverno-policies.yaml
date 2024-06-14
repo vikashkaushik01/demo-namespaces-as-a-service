@@ -17,11 +17,11 @@ spec:
     spec:
       project: "default"
       sources:
-      - repoURL: https://github.com/nirmata/kyverno-policies
-        targetRevision: HEAD
+      - repoURL: https://github.com/vikashkaushik01/kyverno-policies.git
+        targetRevision: vikash
         path: pod-security/enforce
-      - repoURL: https://github.com/nirmata/demo-namespaces-as-a-service
-        targetRevision: HEAD
+      - repoURL: https://github.com/vikashkaushik01/demo-namespaces-as-a-service.git
+        targetRevision: vikash
         path: config/shared-cluster/policies/
       destination:
         server: '{{server}}'
